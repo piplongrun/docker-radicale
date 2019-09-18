@@ -68,7 +68,7 @@ docker run -d --name radicale \
     --health-interval=30s \
     --health-retries=3 \
     -v ~/radicale/data:/data \
-    -v ~/radicale/config:/config:ro \
+    -v ~/radicale/config:/config \
     tomsquest/docker-radicale
 ```
   
